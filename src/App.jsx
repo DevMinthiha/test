@@ -7,7 +7,7 @@ import Dashboard from './components/Dashboard'
 
 const App = () => {
   return (
-    <div className='container v mx-auto'>
+    <div className='container mx-auto'>
       <BrowserRouter>
         <Routes>
           <Route path='/' element={<Hero />} />
